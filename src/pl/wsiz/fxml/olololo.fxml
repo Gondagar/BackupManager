@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="211.0" prefWidth="532.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.wsiz.controller.EditDialogController">
+   <children>
+      <Button layoutX="429.0" layoutY="67.0" mnemonicParsing="false" onAction="#selectFrom" text="Select from" />
+      <Button layoutX="429.0" layoutY="109.0" mnemonicParsing="false" onAction="#selectTo" prefHeight="27.0" prefWidth="89.0" text="Select to" />
+      <TextField fx:id="source" layoutX="120.0" layoutY="67.0" prefHeight="27.0" prefWidth="296.0" />
+      <TextField fx:id="destination" layoutX="120.0" layoutY="109.0" prefHeight="27.0" prefWidth="296.0" />
+      <Label layoutX="35.0" layoutY="67.0" prefHeight="27.0" prefWidth="74.0" text="Source:" />
+      <Label layoutX="35.0" layoutY="109.0" prefHeight="27.0" prefWidth="74.0" text="Destination:" />
+      <Label layoutX="35.0" layoutY="29.0" prefHeight="27.0" prefWidth="63.0" text="File name:" />
+      <TextField fx:id="name" layoutX="121.0" layoutY="29.0" prefHeight="27.0" prefWidth="396.0" />
+      <Button fx:id="close" layoutX="429.0" layoutY="171.0" mnemonicParsing="false" onAction="#close" prefHeight="27.0" prefWidth="89.0" text="Close" />
+      <Button layoutX="29.0" layoutY="171.0" mnemonicParsing="false" onAction="#addItem" prefHeight="27.0" prefWidth="89.0" text="Add" />
+   </children>
+</AnchorPane>
